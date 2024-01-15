@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-text-transient {
+  @apply py-2 px-8 transition-all duration-500 bg-gradient-to-r to-[#E63F23]  from-[#8d1656] rounded-full;
+}
+.btn {
+  @apply border-[2px] py-2 px-8 rounded-full;
+}
+
+.inputField {
+  @apply text-center font-bold px-[8rem] py-3 border-[3px] rounded-full focus:outline-none focus:border-[#8d1656] transition-all duration-300 bg-transparent;
+}
